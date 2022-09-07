@@ -1,0 +1,91 @@
+html, body {
+    overflow-x:visible !important;
+  }
+.site-wrap {
+  width:1920px;
+}
+  
+
+ #fp-nav > ul > li > .fp-tooltip{
+    color:#fff;
+  }
+
+  #fp-nav ul li a.active span {
+    background-color: #fff;
+  }
+
+  #fp-nav ul li a span, .fp-slidesNav ul li a span {
+    color: transparent;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5rem;
+  }
+
+  #fullpage > .section-1 > div > div {
+    font-size: 15px;
+    position:absolute;
+    bottom:162px;
+    right:648px;
+  }
+
+  #fullpage > .section > div >  .arrow {
+    display:block;
+    position: absolute;
+    width:90px;
+    height:50px;
+    right:650px;
+    bottom:68px;
+  }
+
+
+  #fullpage > .section > div >  .arrow > .c {
+    position:absolute;
+    left:14px;
+    top:50%;
+    transform:translatey(-50%);
+    transition: 0.5s;
+  }
+
+  #fullpage > .section > div >  .arrow:hover > .c {
+    left: 50px;
+  }
+
+  #fullpage > .section > div >  .arrow > .a {
+    position:absolute;
+    top:50%;
+    transform:translatey(-50%);
+  }
+
+  .fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1920px;
+    height: 937px;
+    position: relative;
+  }
+
+
+
+  #fullpage > .main  > div {
+    background-image:url("../img/main.png");
+  }
+
+ #fullpage > .section-1 {
+    background-image:url("../img/Mmain.png");
+  }
+  #fullpage > .section-2 {
+    background-image:url("../img/CUmain.png");
+  }
+  #fullpage > .section-3 {
+    background-image:url("../img/Dmain.png");
+  }
+  #fullpage > .section-4 {
+    background-image:url("../img/Fmain.png");
+  }
+  #fullpage > .section-5 {
+    background-image:url("../img/Jmain.png");
+  }
+  #fullpage > .section-6 {
+    background-image:url("../img/Kimain.png");
+  }
