@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>광천김</title>
+    <link rel="icon" href="./img/k.png">
+    <!-- jquery 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- aos 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<script>
+    $("document").ready(function(){
+        AOS.init();
+    });
+</script>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .con {
+        width:1920px;
+        position: relative;
+    }
+
+    @keyframes fly {
+    50% {
+        margin-top:30px;
+    }
+
+    }
+
+    .cloud {
+        animation:fly 2.5s linear infinite;
+    }
+    .cloud-1 {
+        position: absolute;
+        top:130px;
+        left:100px;
+    }
+    .cloud-2 {
+        position: absolute;
+        top:130px;
+        right:40px;
+    }
+
+    
+
+    @keyframes shake {
+        30% {
+            transform:rotate(10deg);
+        }
+
+        60% {
+            transform:rotate(-10deg);
+        }
+    }
+
+    .kim:hover {
+        animation: shake 0.5s linear;
+    }
+
+    .kim-1 {
+        position: absolute;
+        top: 2240px;
+        left: 270px;
+    }
+    .kim-2 {
+        position: absolute;
+        top: 2240px;
+        left: 520px;
+    }
+
+    .kim-3 {
+        position: absolute;
+        top: 2240px;
+        left: 770px;
+    }
+
+    .kim-4 {
+        position: absolute;
+        top: 2240px;
+        left: 1020px;
+    }
+
+    .kim-5 {
+        position: absolute;
+        top: 2240px;
+        left: 1270px;
+    }
+
+    .kim-6 {
+        position: absolute;
+        top: 2240px;
+        left: 1520px;
+    }
+
+    .cloud-3 {
+        position: absolute;
+        top: 3200px;
+        left: 270px;
+    }
+    .cloud-4 {
+        position: absolute;
+        top: 3200px;
+        left: 760px;
+    }
+    .cloud-5 {
+        position: absolute;
+        top: 3200px;
+        right: 270px;
+    }
+
+
+</style>
+
+<body>
+    <div class="con">
+
+        <div class="cloud-1 cloud">
+            <img src="./img/Kc2.png" alt="">
+        </div>
+        <div class="cloud-2 cloud">
+            <img src="./img/Kc1.png" alt="">
+        </div>
+
+
+        <div class="kim-1 kim">
+            <img src="./img/K1.png" alt="">
+        </div>
+        <div class="kim-2 kim">
+            <img src="./img/K2.png" alt="">
+        </div>
+        <div  class="kim-3 kim">
+            <img src="./img/K3.png" alt="">
+        </div>
+        <div class="kim-4 kim">
+            <img src="./img/K4.png" alt="">
+        </div>
+        <div class="kim-5 kim">
+            <img src="./img/K5.png" alt="">
+        </div>
+        <div class="kim-6 kim">
+            <img src="./img/K6.png" alt="">
+        </div>
+
+
+        <div class="cloud-3" data-aos="fade-up">
+            <img src="./img/Kj1.png" alt="">
+        </div>
+        <div class="cloud-4" data-aos="fade-up" data-aos-delay="300">
+            <img src="./img/Kj2.png" alt="">
+        </div>
+        <div class="cloud-5" data-aos="fade-up" data-aos-delay="600">
+            <img src="./img/Kj3.png" alt="">
+        </div>
+
+
+        <img src="./img/Kdtail.png" alt="">
+    </div>
+</body>
+
+</html>

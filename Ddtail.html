@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+ <!-- 제이쿼리 불러오기 -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <!-- aos 불러오기 -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+ </head>
+ <script>
+     $("document").ready(function(){
+         AOS.init();
+     });
+ </script>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .con {
+        width:1920px;
+        position: relative;
+    }
+    .d-1 {
+        position: absolute;
+        top:300px;
+        left:200px;
+    }
+    .d-2 {
+        position: absolute;
+        top:0px;
+        right:140px;
+    }
+    .d-3 {
+        position: absolute;
+        top:1250px;
+        left:300px;
+    }
+    .d-4 {
+        position: absolute;
+        top:1450px;
+        left:250px;
+    }
+    .d-5 {
+        position: absolute;
+        top:1850px;
+        left:300px;
+    }
+    .d-6 {
+        position: absolute;
+        top:2200px;
+        left:300px;
+    }
+    .d-7 {
+        position: absolute;
+        top:2450px;
+        left:300px;
+    }
+</style>
+
+<body>
+<div class="con">
+
+    <div class="d-1" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+        <img src="./img/d-1.png" alt="">
+    </div>
+    <div class="d-2" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+        <img src="./img/d-2.png" alt="">
+    </div>
+    <div class="d-3" data-aos="fade-right">
+        <img src="./img/d-3.png" alt="">
+    </div>
+    <div class="d-4" data-aos="flip-down">
+        <img src="./img/d-4.png" alt="">
+    </div>
+    <div class="d-5" data-aos="fade-right">
+        <img src="./img/d-5.png" alt="">
+    </div>
+    <div class="d-6" data-aos="fade-right">
+        <img src="./img/d-6.png" alt="">
+    </div>
+    <div class="d-7" data-aos="flip-down">
+        <img src="./img/d-7.png" alt="">
+    </div>
+
+
+
+
+    <div class="img-box">
+        <img src="./img/Ddtail.png" alt="">
+    </div>
+
+
+</div>
+</body>
+
+</html>

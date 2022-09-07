@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE:CUBE</title>
+    <link rel="icon" href="./img/c.png">
+<!-- 제이쿼리 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- aos 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<script>
+    $("document").ready(function(){
+        AOS.init();
+    });
+</script>
+
+<style>
+    body {
+        margin: 0;
+    }
+
+    .con {
+        width:1920px;
+        position: relative;
+    }
+    
+    @keyframes fly {
+        50% {
+            margin-top:30px;
+        }
+    }
+
+    @keyframes fly-r {
+        50% {
+            transform:translateY(-30px);
+        }
+    }
+
+    .blue {
+        width:1920px;
+        height: 1000px;
+        background-color: #2d438f;
+        position: relative;
+        overflow: hidden;
+    }
+    .circle {
+        position: absolute;
+        top: 379px;
+        right: -135px;
+        
+        animation:fly 2.5s linear infinite;
+
+    }
+    .sqare {
+        position: absolute;
+        top: -73px;
+        left: -60px;
+        animation:fly-r 2.5s linear infinite;
+
+    }
+    .cq {
+        position: absolute;
+    }
+    .cu-1{
+        position: absolute;
+        top:1500px;
+        right:295px;
+    }
+    .cu-2{
+        position: absolute;
+        top:2350px;
+        right:295px;
+    }
+    .cu-3{
+        position: absolute;
+        top:2700px;
+        right:295px;
+    }
+    .cu-4{
+        position: absolute;
+        top:3100px;
+        right:400px;
+    }
+    .cu-5{
+        position: absolute;
+        top:3100px;
+        left:400px;
+    }
+    .cu-6{
+        position: absolute;
+        top:3650px;
+        left:295px;
+    }
+    .cu-7{
+        position: absolute;
+        top:4000px;
+        left:295px;
+    }
+    .cu-8{
+        position: absolute;
+        top:4000px;
+        left:641px;
+    }
+    .cu-9{
+        position: absolute;
+        top:4000px;
+        right:641px;
+    }
+    .cu-10{
+        position: absolute;
+        top:4000px;
+        right:295px;
+    }
+    .cu-11{
+        position: absolute;
+        top:4700px;
+        left:295px;
+    }
+</style>
+
+<body>
+<div class="con">
+
+    <div class="blue">
+        <div class="sqare"><img src="./img/sqare.png" alt=""></div>
+        <div class="circle"><img src="./img/circle.png" alt=""></div>
+        <div class="cq"><img src="./img/sq.png" alt=""></div>
+    </div>
+
+    <div class="cu-1" data-aos="fade-right">
+        <img src="./img/cu-1.png" alt="">
+    </div>
+    <div class="cu-2" data-aos="fade-right">
+        <img src="./img/cu-2.png" alt="">
+    </div>
+    <div class="cu-3" data-aos="fade-right">
+        <img src="./img/cu-3.png" alt="">
+    </div>
+    <div class="cu-4" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1000">
+        <img src="./img/cu-4.png" alt="">
+    </div>
+    <div class="cu-5" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1000">
+        <img src="./img/cu-5.png" alt="">
+    </div>
+    <div class="cu-6" data-aos="fade-right">
+        <img src="./img/cu-6.png" alt="">
+    </div>
+    <div class="cu-7" data-aos="fade-right"data-aos-offset="100"data-aos-easing="ease-in-sine">
+        <img src="./img/cu-7.png" alt="">
+    </div>
+    <div class="cu-8" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
+        <img src="./img/cu-8.png" alt="">
+    </div>
+    <div class="cu-9" data-aos="fade-right"data-aos-offset="400"data-aos-easing="ease-in-sine">
+        <img src="./img/cu-9.png" alt="">
+    </div>
+
+    <div class="cu-10" data-aos="fade-right"data-aos-offset="500"data-aos-easing="ease-in-sine">
+        <img src="./img/cu-10.png" alt="">
+    </div>
+    <div class="cu-11" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="500">
+        <img src="./img/cu-11.png" alt="">
+    </div>
+
+
+
+
+    <div class="img-box">
+        <img src="./img/CUd.png" alt="">
+    </div>
+
+</div>
+</body>
+
+</html>
