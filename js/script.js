@@ -1,17 +1,28 @@
 $(document).ready(function(){
-    $("#fullpage").fullpage({
+  function SliderBox1__init() {
+    const swiper = new Swiper(".slider-box-1 .swiper", {
+      loop: true,
+      effect: 'fade',
+  
+      // 자동 재생 원할 경우 설정, 지우면 멈춰 있음
+      autoplay: {
+        delay: 5000, // 5초마다 슬라이드 넘김
+        disableOnInteraction : false, // 자동 재생 중 건드려도 비활성화되지 않음
+      },
       
-      // 네비게이션 관련 옵션
-      
-      // 페이지 표시 네비게이션 여부
-      navigation:true,
-      // 페이지 표시 네비게이션 위치
-      navigationPosition: 'left',
-      // 네비게이션 설명 표시
-        navigationTooltips: ['main', 'Monotech', 'Cube', 'Dashboards', 'Smart City Challenge', 'Porridge details', 'Seaweed Detail'],
-      // 네비게이션 설명 현재 페이지 표시 여부
-      showActiveTooltip : true,
+      pagination: {
+        el: ".slider-box-1 .swiper-pagination"
+      },
+  
+      navigation: {
+        nextEl: ".slider-box-1 .swiper-button-next",
+        prevEl: ".slider-box-1 .swiper-button-prev"
+      }
     });
-    
+  }
+  
+  SliderBox1__init();
+
+  
 
 });

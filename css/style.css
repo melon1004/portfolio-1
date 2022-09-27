@@ -1,4 +1,96 @@
-html, body {
+:root {
+  --swiper-theme-color: #f6f6f6 !important;
+}
+
+body {
+  margin:0;
+}
+
+.main > img {
+  display:block;
+}
+
+.slider-box-1 {
+  width:1920px;
+  height: 1000px;
+}
+
+.slider-box-1 .swiper {
+  height:100%;
+}
+
+.slider-box-1 .swiper-button-prev {
+  left:40px;
+}
+
+.slider-box-1 .swiper-button-next {
+  right:40px;
+}
+
+
+.slider-box-1 .swiper .swiper-slide {
+  background-size:cover;
+}
+
+.slider-box-1 .swiper .slide-1 {
+  background-image:url("../img/Mmain.png");
+}
+
+.slider-box-1 .swiper .slide-2 {
+  background-image:url("../img/CUmain.png");
+}
+.slider-box-1 .swiper .slide-3 {
+  background-image:url("../img/Dmain.png");
+}
+.slider-box-1 .swiper .slide-4 {
+  background-image:url("../img/Fmain.png");
+}
+.slider-box-1 .swiper .slide-5 {
+  background-image:url("../img/Jmain.png");
+}
+
+.slider-box-1 .swiper .slide-6 {
+  background-image:url("../img/Kimain.png");
+}
+
+
+.slide-1 > div{
+  font-size: 15px;
+  position:absolute;
+  bottom:226px;
+  right:648px;
+}
+
+.arrow {
+  display:block;
+  position: absolute;
+  width:90px;
+  height:50px;
+  right:650px;
+  bottom:131px;
+}
+
+.arrow > .c {
+  position:absolute;
+  left:14px;
+  top:50%;
+  transform:translatey(-50%);
+  transition: 0.5s;
+}
+
+.arrow:hover > .c {
+  left: 50px;
+}
+
+.arrow > .a {
+  position:absolute;
+  top:50%;
+  transform:translatey(-50%);
+}
+
+
+
+/* html, body {
     overflow-x:visible !important;
   }
 .site-wrap {
@@ -22,41 +114,7 @@ html, body {
     border-radius: 5rem;
   }
 
-  #fullpage > .section-1 > div > div {
-    font-size: 15px;
-    position:absolute;
-    bottom:162px;
-    right:648px;
-  }
-
-  #fullpage > .section > div >  .arrow {
-    display:block;
-    position: absolute;
-    width:90px;
-    height:50px;
-    right:650px;
-    bottom:68px;
-  }
-
-
-  #fullpage > .section > div >  .arrow > .c {
-    position:absolute;
-    left:14px;
-    top:50%;
-    transform:translatey(-50%);
-    transition: 0.5s;
-  }
-
-  #fullpage > .section > div >  .arrow:hover > .c {
-    left: 50px;
-  }
-
-  #fullpage > .section > div >  .arrow > .a {
-    position:absolute;
-    top:50%;
-    transform:translatey(-50%);
-  }
-
+  
   .fp-tableCell {
     display: table-cell;
     vertical-align: middle;
@@ -88,4 +146,4 @@ html, body {
   }
   #fullpage > .section-6 {
     background-image:url("../img/Kimain.png");
-  }
+  } */
