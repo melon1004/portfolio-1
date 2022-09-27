@@ -88,6 +88,9 @@ body {
   transform:translatey(-50%);
 }
 
+.swiper-pagination-bullet {
+  display: none;
+}
 
 
 /* html, body {
